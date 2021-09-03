@@ -5,26 +5,34 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./Assets/imc.css">
+        <link rel="stylesheet" href="./Assets/imc.css" />
 		<title>Calculadora de IMC</title>
 	</head>
 
 	<body>
-		<h1>Calculadora de IMC</h1>
-        
-        <form>
+        <section class="illustration">
+            <img src="./Assets/healthImg.svg" alt="">
+        </section>
 
-            <p>Para calcular seu Índice de Massa Corporal basta preencher os dados abaixo</p>
+        <main>
+		    <h1>Quer calcular seu Índice de Massa Corporal?</h1>
 
-        
-            <label for="altura">Altura</label>
-            <input type="text" id="altura">
+            <form>
+                <p>Basta preencher os dados abaixo</p>
 
-            <label for="peso">Peso</label>
-            <input type="text" id="peso">
+            
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" />
 
-            <button onclick="calcularIMC()">Calcular</button>
-        </form>
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" />
+
+                <button id="button">Calcular</button>
+            </form>
+
+            <div id="result" class="result">
+            </div>
+        </main>
 
         <script src="./Assets/imc.js"></script>
 	</body>
