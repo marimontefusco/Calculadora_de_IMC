@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="./Assets/imc.css" />
-		<title>Calculadora de IMC</title>
-	</head>
+    <link rel="stylesheet" href="./Assets/imc.css" />
+    <title>Calculadora de IMC</title>
+  </head>
 
-	<body>
-        <section class="illustration">
-            <img src="./Assets/healthImg.svg" alt="">
-        </section>
+  <body>
+    <section class="illustration">
+      <img src="./Assets/healthImg.svg" alt="Ilustração de duas pessoas correndo" />
+    </section>
 
-        <main>
-		    <h1>Quer calcular seu Índice de Massa Corporal?</h1>
+    <main>
+      <h1>Quer calcular seu Índice de Massa Corporal?</h1>
 
-            <form>
-                <p>Basta preencher os dados abaixo</p>
+      <form>
+        <p>Basta preencher os dados abaixo</p>
 
-            
-                <label for="altura">Altura</label>
-                <input type="text" id="altura" />
+        <label for="altura">Altura</label>
+        <input type="text" id="altura" required/>
 
-                <label for="peso">Peso</label>
-                <input type="text" id="peso" />
+        <label for="peso">Peso</label>
+        <input type="text" id="peso" required/>
 
-                <button id="button">Calcular</button>
-            </form>
+        <button id="button">Calcular</button>
+      </form>
 
-            <div id="result" class="result">
-            </div>
-        </main>
+      <div id="result" class="result"></div>
+    </main>
 
-        <script src="./Assets/imc.js"></script>
-	</body>
+    <script src="./Assets/imc.js"></script>
+  </body>
 </html>
