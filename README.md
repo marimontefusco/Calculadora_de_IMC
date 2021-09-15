@@ -10,7 +10,7 @@ Project link: https://marimontefusco.github.io/Calculadora_de_IMC/
 
 <div>
   <a href="http://https://github.com/marimontefusco/">
-  <img heigth="180em"   src="https://marimontefusco.github.io/Calculadora_de_IMC/" />
+  <img height="30" width="40" src="https://marimontefusco.github.io/Calculadora_de_IMC/" >
 </div>
 
 
