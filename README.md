@@ -6,6 +6,8 @@ Project link: https://marimontefusco.github.io/Calculadora_de_IMC/
 
 ![ScreenShot](https://marimontefusco.github.io/Calculadora_de_IMC/)
 
+![ScreenShot](https://raw.github.com/marimontefusco/Calculadora_de_IMC/main/)
+
 <div>
   <img src="../../imgs-pages.io/calculadora-imc.png" />
 </div>  
