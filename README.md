@@ -4,6 +4,8 @@ This is a simple personal project of a BMI calculator, made with HTML CSS and Ja
 
 Project link: https://marimontefusco.github.io/Calculadora_de_IMC/
 
+![ScreenShot](https://{https://marimontefusco.github.io/Calculadora_de_IMC/})
+
 <div>
   <img src="../../imgs-pages.io/calculadora-imc.png" />
 </div>  
